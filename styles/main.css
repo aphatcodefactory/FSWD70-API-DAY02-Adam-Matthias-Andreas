@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: verdana; }
+  body #wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+    body #wrapper #header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 125px;
+      background-color: #5A1213; }
+    body #wrapper #mainnav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      height: 40px;
+      background-color: #131313; }
+    body #wrapper #mainnav ul li {
+      display: inline-block;
+      list-style: none; }
+    body #wrapper #mainnav ul li a {
+      text-decoration: none;
+      color: #B5B5B5;
+      font-weight: bold;
+      margin-left: 1rem; }
+    body #wrapper #main {
+      display: flex;
+      flex-direction: column;
+      align-items: space-around;
+      width: 95%; }
+      body #wrapper #main #todate {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        color: #131313; }
+      body #wrapper #main #mainsec-1, body #wrapper #main #mainsec-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+        width: 100%;
+        /*#hintswrapper
+         * display: flex
+         * flex-direction: row
+         * justify-content: space-around
+         * align-items: space-between
+         * margin: 1% 0 1% 0
+         *
+         * #banner-vert2
+         * 	display: flex
+         * 	flex-direction: row
+         * 	width: 92.5% */ }
+        body #wrapper #main #mainsec-1 .headline1, body #wrapper #main #mainsec-2 .headline1 {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          background-color: #DEDEDE;
+          color: #131313; }
+        body #wrapper #main #mainsec-1 .eacharticle, body #wrapper #main #mainsec-1 #hintswrapper, body #wrapper #main #mainsec-2 .eacharticle, body #wrapper #main #mainsec-2 #hintswrapper {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: space-between;
+          width: 100%; }
+          body #wrapper #main #mainsec-1 .eacharticle #banner-vert1, body #wrapper #main #mainsec-1 #hintswrapper #banner-vert1, body #wrapper #main #mainsec-2 .eacharticle #banner-vert1, body #wrapper #main #mainsec-2 #hintswrapper #banner-vert1 {
+            display: none; }
+          body #wrapper #main #mainsec-1 .eacharticle .news, body #wrapper #main #mainsec-1 .eacharticle .hint, body #wrapper #main #mainsec-1 #hintswrapper .news, body #wrapper #main #mainsec-1 #hintswrapper .hint, body #wrapper #main #mainsec-2 .eacharticle .news, body #wrapper #main #mainsec-2 .eacharticle .hint, body #wrapper #main #mainsec-2 #hintswrapper .news, body #wrapper #main #mainsec-2 #hintswrapper .hint {
+            width: 16.5rem; }
+          body #wrapper #main #mainsec-1 .eacharticle .news figcaption, body #wrapper #main #mainsec-1 .eacharticle .hint figcaption, body #wrapper #main #mainsec-1 #hintswrapper .news figcaption, body #wrapper #main #mainsec-1 #hintswrapper .hint figcaption, body #wrapper #main #mainsec-2 .eacharticle .news figcaption, body #wrapper #main #mainsec-2 .eacharticle .hint figcaption, body #wrapper #main #mainsec-2 #hintswrapper .news figcaption, body #wrapper #main #mainsec-2 #hintswrapper .hint figcaption {
+            margin: 0;
+            background-color: #131313;
+            color: #B5B5B5; }
+          body #wrapper #main #mainsec-1 .eacharticle .news img, body #wrapper #main #mainsec-1 .eacharticle .hint img, body #wrapper #main #mainsec-1 #hintswrapper .news img, body #wrapper #main #mainsec-1 #hintswrapper .hint img, body #wrapper #main #mainsec-2 .eacharticle .news img, body #wrapper #main #mainsec-2 .eacharticle .hint img, body #wrapper #main #mainsec-2 #hintswrapper .news img, body #wrapper #main #mainsec-2 #hintswrapper .hint img {
+            width: 100%;
+            height: auto; }
+
+/*# sourceMappingURL=main.css.map */

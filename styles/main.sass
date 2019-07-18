@@ -1,0 +1,117 @@
+$header-color: #5A1213
+$black-color: #131313
+$headline-color: #DEDEDE
+$greytext-color: #B5B5B5
+
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+body
+	font-family: verdana
+
+	#wrapper
+		display: flex
+		flex-direction: column
+		align-items: center
+		width: 100%
+
+		#header
+			display: flex
+			flex-direction: row
+			justify-content: space-around
+			align-items: center
+			width: 100%
+			height: 125px
+			background-color: $header-color
+
+		#mainnav
+			display: flex
+			flex-direction: row
+			align-items: center
+			width: 100%
+			height: 40px
+			background-color: $black-color
+
+		#mainnav ul li
+			display: inline-block
+			list-style: none
+
+		#mainnav ul li a
+			text-decoration: none
+			color: $greytext-color
+			font-weight: bold
+			margin-left: 1rem
+
+		#main
+			display: flex
+			flex-direction: column
+			align-items: space-around
+			width: 95%
+
+			#todate
+				display: flex
+				flex-direction: row
+				justify-content: flex-end
+				align-items: center
+				width: 100%
+				height: 40px
+				color: $black-color
+
+			#mainsec-1, #mainsec-2
+				display: flex
+				flex-direction: column
+				align-items: space-around
+				width: 100%
+
+				.headline1
+					display: flex
+					flex-direction: row
+					width: 100%
+					background-color: $headline-color
+					color: $black-color
+
+				.eacharticle, #hintswrapper
+					display: flex
+					flex-direction: row
+					justify-content: space-between
+					align-items: space-between
+					width: 100%
+
+					#banner-vert1
+						display: none
+
+					.news, .hint
+						width: 16.5rem
+					
+					.news figcaption, .hint figcaption
+						margin: 0
+						background-color: $black-color
+						color: $greytext-color
+
+
+					.news img, .hint img
+						width: 100%
+						height: auto
+
+				/*#hintswrapper
+					display: flex
+					flex-direction: row
+					justify-content: space-around
+					align-items: space-between
+					margin: 1% 0 1% 0
+
+					#banner-vert2
+						display: flex
+						flex-direction: row
+						width: 92.5%
+
+					
+
+
+					
+
+
+	
+			
